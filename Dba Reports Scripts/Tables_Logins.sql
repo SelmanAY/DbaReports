@@ -1,0 +1,22 @@
+USE [DbaTools]
+GO
+
+/****** Object:  Table [dbo].[Logins]    Script Date: 26.03.2017 23:40:42 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Logins](
+	[ID] [smallint] IDENTITY(1,1) NOT NULL,
+	[LoginName] [nvarchar](128) NULL,
+ CONSTRAINT [PK_LoginNames] PRIMARY KEY CLUSTERED 
+(
+	[ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+
