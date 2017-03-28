@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Dba Reports", "Dba Reports\Dba Reports.rptproj", "{9DD62519-59D7-4B3E-A5AC-6B86E4D56459}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{11F80228-E87C-4476-8459-C0E640A3D120}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dba Reports Scripts", "Dba Reports Scripts", "{19A918AD-5A98-43A6-9E10-899672F209BB}"
 	ProjectSection(SolutionItems) = preProject
@@ -25,6 +28,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dba Reports Scripts", "Dba 
 		Dba Reports Scripts\Tables_Times.sql = Dba Reports Scripts\Tables_Times.sql
 		Dba Reports Scripts\TimeDimension.sql = Dba Reports Scripts\TimeDimension.sql
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ScreenShots", "ScreenShots", "{2332C54E-2CB6-4228-BA51-EB625DCFADA6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,5 +52,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{19A918AD-5A98-43A6-9E10-899672F209BB} = {11F80228-E87C-4476-8459-C0E640A3D120}
+		{2332C54E-2CB6-4228-BA51-EB625DCFADA6} = {11F80228-E87C-4476-8459-C0E640A3D120}
 	EndGlobalSection
 EndGlobal

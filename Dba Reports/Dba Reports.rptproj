@@ -9,30 +9,30 @@
   </DataSources>
   <DataSets>
     <ProjectItem>
-      <Name>Servers.rsd</Name>
-      <FullPath>Servers.rsd</FullPath>
+      <Name>Applications.rsd</Name>
+      <FullPath>Applications.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Databases.rsd</Name>
+      <FullPath>Databases.rsd</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Hosts.rsd</Name>
       <FullPath>Hosts.rsd</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Applications.rsd</Name>
-      <FullPath>Applications.rsd</FullPath>
-    </ProjectItem>
-    <ProjectItem>
       <Name>Logins.rsd</Name>
       <FullPath>Logins.rsd</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Databases.rsd</Name>
-      <FullPath>Databases.rsd</FullPath>
+      <Name>Servers.rsd</Name>
+      <FullPath>Servers.rsd</FullPath>
     </ProjectItem>
   </DataSets>
   <Reports>
     <ProjectItem>
-      <Name>CustomerKullananlar.rdl</Name>
-      <FullPath>CustomerKullananlar.rdl</FullPath>
+      <Name>UnwantedLoginReport.rdl</Name>
+      <FullPath>UnwantedLoginReport.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>ReportTemplate.rdl</Name>
