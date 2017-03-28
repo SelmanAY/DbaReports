@@ -24,21 +24,21 @@ This report uses Hosts table in performance reports but you do not need to insta
 
 # Reports
 
-1. Security Reports
-* ServerRoles.rdl
+## Security Reports
+### ServerRoles.rdl
 
 Lists server level permissions granted for all users in database server. [Screenshot][2]
 
-* User Permissions
+### User Permissions
 
 Lists database level permissions granted for all users in databases in a database server [Screenshot][3]
 
-2. Performance reports
-* Unwanted login report
+## Performance reports
+### Unwanted login report
 
 This not actually about performance. There are shared users that people used to use, for various reasons we can't delete/disable these accounts. This reports uses aggregated sp_WhoIsActive collections. 
 
-* Tables Born Last Week report
+### Tables Born Last Week report
 
 This is not about query performance but about maintenance performance. Our users get used to work in prod environments with an addiction of creating report tables for specific cases. For example a table like ADSL_Report_20150318, there are four years old tables with no usage but every week these tables index maintained, backed up, DBCC checked. 
 
@@ -46,11 +46,11 @@ In meeting people used to say that they are not working as so after my warning b
 
 This report uses DDL_Operations table populated by a DDL Trigger on all databases. 
 
-* Server Workload Analysis report
+### Server Workload Analysis report
 
 This report is the most usefull report using aggregated sp_WhoIsActive collections. I used different enterprise monitoring systems the tend to report CPU usages, reads, writes and physical reads by only application name parameter in connection strings or program_name column in sys.sessions. I created same report by database, application category, login_name, host. 
 
-* SqlAgentJob Workload Analysis report
+### SqlAgentJob Workload Analysis report
 
 This report is very similar to Server Workload Analysis report but it runs only on SqlAgent application category and displays Job Category, Job Name and Step details. 
 
